@@ -1,0 +1,10 @@
+
+PUT http://localhost:8080/tarefas/1849e03c-48c3-4c45-9021-180ba42f130c HTTP/1.1
+content-type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21lIjoiR2FicmllbCIsInVzZXJuYW1lIjoiZ2FicmllbGNhbXBvb3MiLCJpYXQiOjE3MDQ4NjE0ODYsImV4cCI6MTcwNDg2NTA4Nn0.U3_WkTvzvYjDOmbxbdAKVMVRlFTH3dre_iseAiIx4-0
+
+{
+    "titulo": "testei",
+    "tarefa": "gabrielcampoos",
+    "criadoPor": "gabrielcampoos"
+}

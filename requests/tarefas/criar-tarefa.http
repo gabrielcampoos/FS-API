@@ -1,0 +1,10 @@
+
+POST http://localhost:8080/tarefas HTTP/1.1
+content-type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYwOGYyNDU3LTg4YWItNGQyNS04ZGJkLTljMzNlY2VhY2I3NCIsIm5vbWUiOiJHYWJyaWVsIiwidXNlcm5hbWUiOiJnYWJyaWVsIiwiY3JpYWRvRW0iOiIyMDI0LTAxLTEzVDAxOjQzOjQ1LjM2MFoiLCJpYXQiOjE3MDUxMTAyMjUsImV4cCI6MTcwNTExMzgyNX0.E97_shwPO50Vzcm5F5UYvw2RnAFk_m80BdlMEFafy4A
+
+{
+    "titulo": "teste2",
+    "tarefa": "teste2",
+    "criadoPor": "gabriel"
+}
